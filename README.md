@@ -1,3 +1,17 @@
+# F's version of Luke's Auto-Rice Bootstrapping Scripts (LARBS)
+
+## Installation:
+
+clone the repository:
+
+```
+git clone https://github.com/filippo-ferrari/LARBS.git
+```
+then launch the script:
+```
+sh larbs.sh
+```
+
 # Luke's Auto-Rice Bootstrapping Scripts (LARBS)
 
 ## Installation:
