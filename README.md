@@ -1,8 +1,8 @@
 # F's version of Luke's Auto-Rice Bootstrapping Scripts (LARBS)
 
-## ⚠️  Current workarond for this [issue](https://github.com/filippo-ferrari/LARBS/issues/2) ⚠️
+## ⚠️  Current workaround for this [issue](https://github.com/filippo-ferrari/LARBS/issues/2) ⚠️
 As of right now the script fails to install due to an error when trying to install the AUR helper.
-The way fix this error is: 
+The way to fix this error is: 
 
 - Step 1: Run the script: sh larbs.sh and let the script fail.
 - Step 2: Added the newly created user you added from the script to the wheel group: usermod -aG wheel username
