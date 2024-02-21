@@ -1,5 +1,23 @@
 # F's version of Luke's Auto-Rice Bootstrapping Scripts (LARBS)
 
+## ⚠️  Current workarond for this [issue](https://github.com/filippo-ferrari/LARBS/issues/2) ⚠️
+As of right now the script fails to install due to an error when trying to install the AUR helper.
+The way fix this error is: 
+
+- Step 1: Run the script: sh larbs.sh and let the script fail.
+- Step 2: Added the newly created user you added from the script to the wheel group: usermod -aG wheel username
+- Step 3: Install vi: pacman -S vi
+- Step 4: Edit the sudoers file visudo /etc/sudoers
+- Step 5: Uncomment this line: # %whell ALL=(ALL:ALL) ALL
+- Step 6: Switch from the root user to the new user. su username
+- Step 7: Change home directories: cd
+- Step 8: Goto the directory yay is installed: cd .local/src/yay
+- Step 9: Install yay: makepkg -si
+- Step 10: Type: exit
+- Step 11: Now as the root user again, run: sh larbs.sh
+
+Workaround provided by: [this user's comment](https://github.com/LukeSmithxyz/LARBS/issues/538#issuecomment-1808489841)
+
 ## Installation:
 
 clone the repository:
