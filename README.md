@@ -1,7 +1,6 @@
 # F's version of Luke's Auto-Rice Bootstrapping Scripts (LARBS)
 
 ## ⚠️  Current workaround for this [issue](https://github.com/filippo-ferrari/LARBS/issues/2) ⚠️
-## seems like the last PR merged solved the issue, testing will be done ASAP
 As of right now the script fails to install due to an error when trying to install the AUR helper.
 The way to fix this error is: 
 
